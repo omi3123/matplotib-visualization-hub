@@ -4,31 +4,18 @@ This repository is a complete guide to mastering Matplotlib, the most popular Py
 
 ✅ Topics Covered
 📚 Introduction to Matplotlib
-
 ⚙️ Getting Started and Installation
-
 🎨 Using Pyplot
-
 📈 Plotting Lines
-
 🔵 Markers in Plots
-
 ➖ Line Styles and Colors
-
 📝 Labels and Titles
-
-🔳 Adding Grids
-
+🔲 Adding Grids
 🗂️ Subplots and Multi-Plots
-
 🔴 Scatter Plots
-
 📊 Bar Charts
-
 📉 Histograms
-
 🥧 Pie Charts
-
 🛠️ Installation
 bash
 Copy
@@ -66,8 +53,6 @@ plt.xlabel('X Axis')
 plt.ylabel('Y Axis')
 plt.grid(True)
 plt.show()
-Visualization: Dashed line connecting points with circular markers.
-
 📂 Repository Structure
 arduino
 Copy
