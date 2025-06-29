@@ -1,0 +1,142 @@
+📚 Matplotlib Complete Notes with Theory, Explanation & Examples
+✅ 1. Matplotlib Intro
+Theory:
+Matplotlib is a popular Python library for creating plots and charts. It helps visualize data to understand patterns, trends, and relationships. It supports 2D plots (line, bar, scatter, pie, etc.) and basic 3D plotting.
+
+✅ 2. Getting Started
+Theory:
+Before using Matplotlib, install it using:
+
+pip install matplotlib
+Then, import pyplot, which is a module that provides a simple interface to plotting functions.
+
+Example:
+
+import matplotlib.pyplot as plt
+This is required in every script using Matplotlib.
+
+✅ 3. Pyplot
+Theory:
+pyplot acts like a drawing canvas. You can call functions to create plots step by step — draw data, add labels, titles, grid, etc.
+
+Example:
+
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+Visualization: A simple line connecting the points (1,4), (2,5), (3,6).
+
+✅ 4. Plotting
+Theory:
+plt.plot() draws lines connecting data points. You can plot multiple lines, customize styles, and add legends.
+
+Example:
+
+x = [1, 2, 3, 4]
+y1 = [10, 20, 25, 30]
+y2 = [30, 20, 15, 10]
+
+plt.plot(x, y1, label='Rising')
+plt.plot(x, y2, label='Falling', linestyle='--')
+plt.legend()
+plt.show()
+Visualization: One line rises, the other falls; they cross each other in the graph.
+
+✅ 5. Markers
+Theory:
+Markers highlight data points on a line plot (e.g., circles, squares, triangles). Useful to identify values at each point.
+
+Examples:
+
+plt.plot(x, y1, marker='o')        # Circles
+plt.plot(x, y2, marker='*')        # Stars
+plt.plot(x, y2, marker='s')        # Squares
+plt.show()
+Visualization: Different symbols appear at each data point along the lines.
+
+✅ 6. Line
+Theory:
+You can change line styles (solid, dashed, dotted) and colors to make plots clearer.
+
+Examples:
+
+plt.plot(x, y1, linestyle='--')    # Dashed
+plt.plot(x, y2, linestyle=':')     # Dotted
+plt.show()
+Visualization: First line is dashed, second is dotted.
+
+✅ 7. Labels
+Theory:
+Axis labels and titles describe your graph, making it easier to read.
+
+Example:
+
+plt.xlabel('X Axis')
+plt.ylabel('Y Axis')
+plt.title('Example Plot')
+plt.show()
+✅ 8. Grid
+Theory:
+Grid lines help compare values visually by showing background reference lines.
+
+Example:
+
+plt.grid(True)
+✅ 9. Subplot
+Theory:
+Use subplots to create multiple plots in one figure window.
+
+Example:
+
+plt.subplot(1, 2, 1)
+plt.plot(x, y1)
+plt.title('Left Plot')
+
+plt.subplot(1, 2, 2)
+plt.plot(x, y2)
+plt.title('Right Plot')
+
+plt.show()
+Visualization: Two graphs side by side in the same window.
+
+✅ 10. Scatter
+Theory:
+Scatter plots display points individually rather than connecting them. Useful for showing correlation between variables.
+
+Example:
+
+plt.scatter(x, y1)
+plt.show()
+Visualization: Points plotted individually on graph.
+
+✅ 11. Bars
+Theory:
+Bar charts compare categories or groups.
+
+Example:
+
+plt.bar(x, y1)
+plt.show()
+Visualization: Vertical bars showing heights equal to y-values.
+
+✅ 12. Histograms
+Theory:
+Histograms show distribution of data — how often ranges of values occur.
+
+Example:
+
+data = [1,2,2,3,3,3,4,4,4,4]
+plt.hist(data, bins=4)
+plt.show()
+Visualization: Bars showing frequency of values in each bin/range.
+
+✅ 13. Pie Charts
+Theory:
+Pie charts show proportions of categories as slices of a circle.
+
+Example:
+
+values = [30, 40, 30]
+labels = ['A', 'B', 'C']
+plt.pie(values, labels=labels)
+plt.show()
+Visualization: Circle divided into 3 parts: A (30%), B (40%), C (30%).
