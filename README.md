@@ -1,8 +1,9 @@
-📊 Matplotlib Mastery: From Basics to Advanced Visualization
-🌟 Overview
+**📊 Matplotlib Mastery: From Basics to Advanced Visualization**
+🌟 *Overview*
+
 This repository is a complete guide to mastering Matplotlib, the most popular Python library for data visualization. It includes theory, examples, and explanations of how each graph will look, making it perfect for both beginners and intermediate learners.
 
-✅ Topics Covered
+**✅ Topics Covered**
 📚 Introduction to Matplotlib
 ⚙️ Getting Started and Installation
 🎨 Using Pyplot
@@ -16,12 +17,13 @@ This repository is a complete guide to mastering Matplotlib, the most popular Py
 📊 Bar Charts
 📉 Histograms
 🥧 Pie Charts
-🛠️ Installation
-bash
-Copy
-Edit
+
+**🛠️ Installation**
+
 pip install matplotlib
-📘 What You’ll Learn
+
+**📘 What You’ll Learn**
+
 Setting up and using Matplotlib in your projects
 
 Creating and customizing line plots
@@ -38,10 +40,8 @@ Building scatter plots, bar charts, histograms, and pie charts
 
 Saving your plots to image files
 
-💻 Quick Example
-python
-Copy
-Edit
+**💻 Quick Example**
+
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4]
@@ -53,10 +53,9 @@ plt.xlabel('X Axis')
 plt.ylabel('Y Axis')
 plt.grid(True)
 plt.show()
-📂 Repository Structure
-arduino
-Copy
-Edit
+
+**📂 Repository Structure**
+
 matplotlib-mastery/
 │
 ├── 01-intro.md
@@ -73,11 +72,15 @@ matplotlib-mastery/
 ├── 12-histograms.md
 ├── 13-pie-charts.md
 └── README.md
-🌟 Contributing
+
+**🌟 Contributing**
+
 Pull requests and suggestions are welcome! If you have ideas to improve or expand this guide, feel free to submit an issue or PR.
 
-📜 License
+**📜 License**
+
 This project is licensed under the MIT License.
 
-✨ Author
+**✨ Author**
+
 Developed with ❤️ by Muhammad Umair Bashir.
