@@ -1,4 +1,5 @@
 **📊 Matplotlib Mastery: From Basics to Advanced Visualization**
+
 🌟 *Overview*
 
 This repository is a complete guide to mastering Matplotlib, the most popular Python library for data visualization. It includes theory, examples, and explanations of how each graph will look, making it perfect for both beginners and intermediate learners.
